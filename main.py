@@ -7,10 +7,10 @@ if __name__ == "__main__":
     calc = CalculadoraAreas()
     radio = float(input("Ingrese el radio del círculo: "))
 
-    area = calc.area_circulo(radio)
+    area = calc.area_circulos(radio)
 
    
     print("Área del rectángulo :"+ str(rect))
     print("Área del triángulo :"+str(tri) )
-    print("El área del círculo con radio "+str(radio)+" es: "+ str(area))
+    print("El área del círculo con radio "+str(radio)+" es= "+ str(area))
    
